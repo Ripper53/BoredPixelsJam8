@@ -7,8 +7,14 @@ using UnityEngine;
 public class DeskPutter : MonoBehaviour {
     public Transform Transform;
     public GetColliders GetColliders;
-    public Item CurrentItem;
+    public Item CurrentItem { get; private set; }
     public Vector2 Position;
+    [Header("Speed")]
+    public GradientRate Speed;
+    public float MaxSpeed;
+    public float AscendIncrement, DescendIncrement;
+    public CharacterJump CharacterJump;
+    public Vector2 JumpForce;
 
     public void Trade() {
         foreach (Collider2D col in GetColliders.Get()) {
@@ -19,9 +25,27 @@ public class DeskPutter : MonoBehaviour {
         }
     }
 
+    private bool holding = false;
     public void Give(Item item) {
         CurrentItem = item;
-        CurrentItem.SetPosition(Transform, Position);
+        CurrentItem.SetPosition(Transform, Position, 0f);
+        if (!holding) {
+            holding = true;
+            Speed.Max -= MaxSpeed;
+            Speed.AscendIncrement -= AscendIncrement;
+            Speed.DescendIncrement -= DescendIncrement;
+            CharacterJump.Force -= JumpForce;
+        }
+    }
+
+    public void Remove() {
+        CurrentItem = null;
+        if (!holding) return;
+        holding = false;
+        Speed.Max += MaxSpeed;
+        Speed.AscendIncrement += AscendIncrement;
+        Speed.DescendIncrement += DescendIncrement;
+        CharacterJump.Force += JumpForce;
     }
 
 }

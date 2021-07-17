@@ -10,7 +10,7 @@ public class Desk : MonoBehaviour {
     
     private void Put(Item item) {
         CurrentItem = item;
-        CurrentItem.SetPosition(Transform, Position);
+        CurrentItem.SetPosition(Transform, Position, 0f);
     }
 
     public void Interact(DeskPutter putter) {
@@ -23,7 +23,7 @@ public class Desk : MonoBehaviour {
                 CurrentItem = null;
         } else if (putter.CurrentItem) {
             Put(putter.CurrentItem);
-            putter.CurrentItem = null;
+            putter.Remove();
         }
     }
 

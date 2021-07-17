@@ -133,7 +133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Transform: {fileID: 1447326115019787830}
   Target: {fileID: 0}
-  Offset: {x: 0, y: 2}
+  Offset: {x: 0, y: 0}
   FollowTime: 0.1
 --- !u!114 &1447326115019787825
 MonoBehaviour:

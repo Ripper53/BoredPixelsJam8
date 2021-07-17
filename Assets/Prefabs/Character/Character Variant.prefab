@@ -15,6 +15,20 @@ MonoBehaviour:
   Character: {fileID: 7856480420007416041}
   Speed: {fileID: 442760888997142934}
   Drag: 5
+--- !u!114 &8181601458729433309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7856480420007416018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d780cd5a5812bd74686598a3948a1a62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Rigidbody: {fileID: 7856480420007416045}
+  MinVelocityY: -20
 --- !u!114 &1980348942701327821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83,35 +97,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 432754113663861765, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
       propertyPath: Filter.layerMask.m_Bits
-      value: 65
+      value: 321
       objectReference: {fileID: 0}
     - target: {fileID: 1330293841155444409, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
       propertyPath: Filter.layerMask.m_Bits
-      value: 65
+      value: 321
       objectReference: {fileID: 0}
-    - target: {fileID: 2517973075084174920, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
-      propertyPath: CoyoteTime
-      value: 0.08
-      objectReference: {fileID: 0}
+    - target: {fileID: 3647833477356511840, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
+      propertyPath: ToExclude
+      value: 
+      objectReference: {fileID: 7856480420007416018}
     - target: {fileID: 3763742293918641675, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
       propertyPath: FallForce
-      value: -1
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5463557830783474088, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
       propertyPath: Filter.layerMask.m_Bits
-      value: 65
+      value: 321
       objectReference: {fileID: 0}
     - target: {fileID: 6417961020639827465, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
       propertyPath: Filter.layerMask.m_Bits
-      value: 65
+      value: 321
       objectReference: {fileID: 0}
     - target: {fileID: 6442788954146506204, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
       propertyPath: Filter.layerMask.m_Bits
-      value: 65
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 6891950298325373716, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
       propertyPath: Filter.layerMask.m_Bits
-      value: 65
+      value: 321
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583532901392950174, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583532901392950174, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1371693591
       objectReference: {fileID: 0}
     - target: {fileID: 7583532902805162778, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
       propertyPath: m_Name
@@ -179,13 +201,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8177639763431299883, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
       propertyPath: Filter.layerMask.m_Bits
-      value: 65
+      value: 64
       objectReference: {fileID: 0}
+    - target: {fileID: 9172902583960731597, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
+      propertyPath: ToExclude
+      value: 
+      objectReference: {fileID: 7856480420007416018}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
 --- !u!1 &7856480420007416018 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7583532902805162778, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
+  m_PrefabInstance: {fileID: 304500605176175560}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &7856480420007416045 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 7583532902805162789, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
   m_PrefabInstance: {fileID: 304500605176175560}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &7856480420007416041 stripped

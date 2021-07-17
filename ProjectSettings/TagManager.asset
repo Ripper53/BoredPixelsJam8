@@ -12,10 +12,10 @@ TagManager:
   - Water
   - UI
   - Ground
-  - Character
-  - 
-  - 
-  - 
+  - FriendlyCharacter
+  - EnemyCharacter
+  - Sword
+  - Direction
   - 
   - 
   - 
@@ -43,6 +43,9 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Character
+    uniqueID: 1371693591
     locked: 0
   - name: Item
     uniqueID: 3461605371
