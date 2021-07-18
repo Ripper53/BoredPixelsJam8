@@ -15,6 +15,25 @@ MonoBehaviour:
   Character: {fileID: 7856480420007416041}
   Speed: {fileID: 442760888997142934}
   Drag: 5
+--- !u!114 &6690621448507437782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7856480420007416018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b070765fc8f2c84b93d97a87f26e942, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  max: 1
+  CharacterObj: {fileID: 7856480420007416018}
+  Transform: {fileID: 7856480420007416044}
+  Rigidbody: {fileID: 7856480420007416045}
+  SpriteRenderer: {fileID: 7856480421954549846}
+  DeadBody: {fileID: 11400000, guid: 2b37f5ff67fee204895dc08297efc00e, type: 2}
+  characterDeadBodyPooler: {fileID: 0}
 --- !u!114 &8181601458729433309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,6 +231,11 @@ PrefabInstance:
 --- !u!1 &7856480420007416018 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7583532902805162778, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
+  m_PrefabInstance: {fileID: 304500605176175560}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7856480420007416044 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7583532902805162788, guid: 2e8272b8f06b3e744bc137250df86324, type: 3}
   m_PrefabInstance: {fileID: 304500605176175560}
   m_PrefabAsset: {fileID: 0}
 --- !u!50 &7856480420007416045 stripped

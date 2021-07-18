@@ -300,6 +300,10 @@ PrefabInstance:
       propertyPath: IdleAnimation
       value: 
       objectReference: {fileID: 11400000, guid: 30c40fdb07eba50489db141e813cda35, type: 2}
+    - target: {fileID: 732558858093516836, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
+      propertyPath: WalkAnimation
+      value: 
+      objectReference: {fileID: 11400000, guid: c5aae52b2195f9b448f4411b90dd4845, type: 2}
     - target: {fileID: 800487296376584024, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
       propertyPath: Size.y
       value: 1.75
@@ -392,6 +396,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2701300871337209222, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
+      propertyPath: Force.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2701300871337209275, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
       propertyPath: m_Name
       value: Hero AI Character Variant
@@ -426,7 +434,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5646987452909821183, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
       propertyPath: Max
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5646987452909821183, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
       propertyPath: AscendIncrement
