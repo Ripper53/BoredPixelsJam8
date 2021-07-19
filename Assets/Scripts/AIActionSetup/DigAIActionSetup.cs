@@ -11,7 +11,6 @@ public class DigAIActionSetup : AIActionSetup {
     [System.Serializable]
     public class DigAIAction : IAIAction, IAIAction.IStartable {
         public Transform Transform;
-        public RotateToAngle RotateToAngle;
         public Cast BottomCast;
         public float Speed, Time;
 
@@ -25,8 +24,7 @@ public class DigAIActionSetup : AIActionSetup {
             if (hit) {
                 float angle = (Mathf.Atan2(-hit.normal.y, -hit.normal.x) * Mathf.Rad2Deg) + 90f;
                 Transform.rotation = Quaternion.Euler(0f, 0f, angle);
-                RotateToAngle.Angle = angle;
-                Vector2 pos = token.Source.Position + (BottomCast.GetLocalDirection() * BottomCast.Distance);
+                Vector2 pos = BottomCast.ShapeParameter.Position + (BottomCast.GetLocalDirection() * BottomCast.Distance);
                 token.Source.MovementExecution.AddPosition(Vector2.SmoothDamp(pos, hit.centroid, ref vel, Time, Mathf.Infinity, UnityEngine.Time.fixedDeltaTime) - pos);
                 angle = (angle + 180f) * Mathf.Deg2Rad;
                 token.Source.MovementExecution.AddPosition(new Vector2(Mathf.Cos(angle), Mathf.Sin(angle)) * Speed * UnityEngine.Time.fixedDeltaTime);

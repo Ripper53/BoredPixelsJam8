@@ -73,7 +73,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Transform: {fileID: 2931496524022838815}
   Offset: {x: 0, y: 0}
-  Size: {x: 1, y: 2}
+  Size: {x: 2, y: 2}
 --- !u!1 &4893446876250547767
 GameObject:
   m_ObjectHideFlags: 0

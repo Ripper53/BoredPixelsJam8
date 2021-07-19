@@ -205,6 +205,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Star Enemy AI Character Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 2336390067351257396, guid: 968a36c6d3f21b34abb54fd07241cdba, type: 3}
+      propertyPath: IdleAnimation
+      value: 
+      objectReference: {fileID: 11400000, guid: 259d5a7be69561040b5be2ec8879665c, type: 2}
+    - target: {fileID: 2336390067351257396, guid: 968a36c6d3f21b34abb54fd07241cdba, type: 3}
+      propertyPath: JumpAnimation
+      value: 
+      objectReference: {fileID: 11400000, guid: 259d5a7be69561040b5be2ec8879665c, type: 2}
+    - target: {fileID: 2336390067351257396, guid: 968a36c6d3f21b34abb54fd07241cdba, type: 3}
+      propertyPath: WalkAnimation
+      value: 
+      objectReference: {fileID: 11400000, guid: 259d5a7be69561040b5be2ec8879665c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 968a36c6d3f21b34abb54fd07241cdba, type: 3}
 --- !u!1 &4840545575063374896 stripped

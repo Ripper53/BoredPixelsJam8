@@ -52,7 +52,6 @@ MonoBehaviour:
   ActionData:
     DigAIAction:
       Transform: {fileID: 4015420634682821652}
-      RotateToAngle: {fileID: 9198415407633171097}
       BottomCast: {fileID: 2770078407573755050}
       Speed: 1
       Time: 0.1
@@ -69,7 +68,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Rigidbody: {fileID: 8462223833236622074}
---- !u!114 &9198415407633171097
+--- !u!114 &3448787444670977340
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -78,12 +77,38 @@ MonoBehaviour:
   m_GameObject: {fileID: 5369046803258116762}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd5d7b65c08351b4784ae0c005f87555, type: 3}
+  m_Script: {fileID: 11500000, guid: 810abeb379d2a7141848d98d9005a26f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Transform: {fileID: 2326881508695119775}
-  Angle: 0
-  Time: 0.1
+  Speed: 180
+--- !u!114 &801217221453191433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5369046803258116762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 294c82c97bee9414cbfccc72fa96a683, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpriteRenderer: {fileID: 3253189191550857582}
+--- !u!114 &7189833797190971663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5369046803258116762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cff2309372534b4b9f34dbe925342af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FrameAnimator: {fileID: 801217221453191433}
+  SpriteAnimation: {fileID: 11400000, guid: 8516a5346fa5d174083f20c81cda94d0, type: 2}
 --- !u!1 &3076667913387191706
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,7 +168,7 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   direction: {x: 0, y: -1}
-  distance: 0.25
+  distance: 0.0625
   CapsuleParameter: {fileID: 7246792735953027268}
 --- !u!114 &7246792735953027268
 MonoBehaviour:
@@ -158,7 +183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Transform: {fileID: 4015420634682821652}
-  Offset: {x: 0, y: 0}
+  Offset: {x: 0, y: 0.25}
   Size: {x: 0.875, y: 0.5}
   Direction: 1
 --- !u!1 &4882302648446545810
@@ -349,6 +374,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1001856773299089146, guid: cdb19abdd71052a49acfd2401ef8f95b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c4d8fd015e1f8a1408d63b72495619a3, type: 3}
     - target: {fileID: 3486704514838529156, guid: cdb19abdd71052a49acfd2401ef8f95b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -448,5 +477,10 @@ GameObject:
 --- !u!4 &2326881508695119775 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 38376664077060107, guid: cdb19abdd71052a49acfd2401ef8f95b, type: 3}
+  m_PrefabInstance: {fileID: 2360705581520052116}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &3253189191550857582 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1001856773299089146, guid: cdb19abdd71052a49acfd2401ef8f95b, type: 3}
   m_PrefabInstance: {fileID: 2360705581520052116}
   m_PrefabAsset: {fileID: 0}

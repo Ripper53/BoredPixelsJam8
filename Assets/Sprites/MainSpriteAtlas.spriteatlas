@@ -50,16 +50,21 @@ SpriteAtlas:
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: 2cc5a560ad4cdc1499e214a0ac30a3b9, type: 3}
+  - {fileID: 21300000, guid: 8f8b3f9095965f544b5d1fb5e90f23b2, type: 3}
+  - {fileID: 21300000, guid: c4d8fd015e1f8a1408d63b72495619a3, type: 3}
   - {fileID: 21300000, guid: 32103c82850fbb04196fecc17a3284ef, type: 3}
   - {fileID: 21300000, guid: 0cfe4db2d9cd03e44b468cfad1b6bf48, type: 3}
   - {fileID: 21300000, guid: 55a85543b46ffcd4badad3453bfb9be8, type: 3}
   - {fileID: 21300000, guid: 2d65a4932645b7741a718522806b8f99, type: 3}
+  - {fileID: 21300000, guid: 4ce2504ac7f56c649ba64593a2aa974b, type: 3}
   - {fileID: 21300000, guid: 6366b90ca3c21844b84ff779cb53f7d7, type: 3}
   - {fileID: 21300000, guid: 90498bac3af8454468b2b6f7963dcc01, type: 3}
   - {fileID: 21300000, guid: 90c56e2da0dc8574cbf9629be22df7de, type: 3}
   - {fileID: 21300000, guid: 6e749f2d03457304998cb1a874eb247d, type: 3}
   - {fileID: 21300000, guid: 833b09fdcf6acd249b59bb6245a8ed25, type: 3}
   - {fileID: 21300000, guid: c375c30ea5226af4e816c5be68031911, type: 3}
+  - {fileID: 21300000, guid: fe51775e9f45f6b4f8b1ce9772b1b4cd, type: 3}
   - {fileID: -748655851102102446, guid: 56acbdaeb4afb5b42ad5e32581bc9492, type: 3}
   - {fileID: 4280891998608119737, guid: 56acbdaeb4afb5b42ad5e32581bc9492, type: 3}
   - {fileID: -9163426285224168042, guid: 56acbdaeb4afb5b42ad5e32581bc9492, type: 3}
@@ -78,16 +83,21 @@ SpriteAtlas:
   - {fileID: 9104886320831918182, guid: 56acbdaeb4afb5b42ad5e32581bc9492, type: 3}
   - {fileID: 21300000, guid: 655f1f4fc6d126443b0d2b38d562d4aa, type: 3}
   m_PackedSpriteNamesToIndex:
+  - Dig1
+  - Dig2
+  - Dig0
   - Sword
   - Sword_Swing
   - Player
   - PlayerWalk0
+  - Star2
   - HeroWalk1
-  - Star
+  - Star0
   - Hero
   - Desk
   - HeroWalk0
   - StripBackground
+  - Star1
   - Tile_LeftDeadEnd
   - Tile_Inner
   - Tile_Standalone
