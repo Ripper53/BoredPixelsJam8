@@ -48,6 +48,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Rigidbody: {fileID: 7856480420007416045}
   MinVelocityY: -20
+--- !u!114 &3025491793247147461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7856480420007416018}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4d75150e357add448f9131cc1fafec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Character: {fileID: 7856480420007416041}
+  CharacterFriction: {fileID: 2185370470595088118}
 --- !u!114 &1980348942701327821
 MonoBehaviour:
   m_ObjectHideFlags: 0

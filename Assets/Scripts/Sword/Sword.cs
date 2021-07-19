@@ -1,12 +1,11 @@
 using Platformer2DStarterKit;
-using Platformer2DStarterKit.Utility;
 using UnityEngine;
 
 public class Sword : MonoBehaviour {
     public GameObject GameObject;
     public Transform Transform;
     public Rigidbody2D Rigidbody;
-    public float Speed;
+    public float Speed, GravityScale;
     public Cast CollisionCast;
     public Item Item;
     [Header("Animation")]
@@ -27,6 +26,7 @@ public class Sword : MonoBehaviour {
 
     private Vector2 dir;
     private void OnEnable() {
+        Rigidbody.gravityScale = GravityScale;
         Rigidbody.velocity = Speed * dir.normalized;
         Animator.SetAnimation(ThrowAnimation);
     }
@@ -40,6 +40,7 @@ public class Sword : MonoBehaviour {
         RaycastHit2D hit = CollisionCast.Evaluate();
         if (hit) {
             Transform.right = -hit.normal;
+            Rigidbody.gravityScale = 0f;
             Rigidbody.velocity = Vector2.zero;
 
             Animator.SetAnimation(IdleAnimation);

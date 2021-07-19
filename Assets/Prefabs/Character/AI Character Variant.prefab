@@ -25,7 +25,7 @@ MonoBehaviour:
   FrameAnimator: {fileID: 5980988505396021412}
   Character: {fileID: 2701300871337209216}
   CharacterMovement: {fileID: 2701300871337209223}
-  Stun: {fileID: 0}
+  Stun: {fileID: 7027749863085336748}
   Jump: {fileID: 2701300871337209222}
   Death: {fileID: 1487029311931043775}
   MovementExecution: {fileID: 248079116853769437}
@@ -305,6 +305,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5564dcf6145cfc946b149c59f55a2559, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7027749863085336748 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3025491793247147461, guid: f7da137c4126c0d469170145e6722da5, type: 3}
+  m_PrefabInstance: {fileID: 5222805050545110377}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2701300871337209275}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4d75150e357add448f9131cc1fafec5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1487029311931043775 stripped
