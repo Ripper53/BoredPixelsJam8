@@ -53,7 +53,7 @@ MonoBehaviour:
     DigAIAction:
       Transform: {fileID: 4015420634682821652}
       BottomCast: {fileID: 2770078407573755050}
-      Speed: 1
+      Speed: 5
       Time: 0.1
 --- !u!114 &3815568380925289254
 MonoBehaviour:
@@ -68,20 +68,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Rigidbody: {fileID: 8462223833236622074}
---- !u!114 &3448787444670977340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5369046803258116762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 810abeb379d2a7141848d98d9005a26f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Transform: {fileID: 2326881508695119775}
-  Speed: 180
 --- !u!114 &801217221453191433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,6 +81,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpriteRenderer: {fileID: 3253189191550857582}
+--- !u!114 &3448787444670977340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5369046803258116762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810abeb379d2a7141848d98d9005a26f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Transform: {fileID: 2326881508695119775}
+  Speed: 900
 --- !u!114 &7189833797190971663
 MonoBehaviour:
   m_ObjectHideFlags: 0

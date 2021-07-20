@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1855309695650087923}
   - component: {fileID: 3253284563678558895}
   - component: {fileID: 8688927416061283342}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49,6 +49,8 @@ MonoBehaviour:
   Collider: {fileID: 8688927416061283342}
   Size: 0
   Time: 0.1
+  Animator: {fileID: 4609913761142461252}
+  OpenAnimation: {fileID: 11400000, guid: e2879652839f65d4e9911daf722abda2, type: 2}
 --- !u!61 &8688927416061283342
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -85,7 +87,8 @@ GameObject:
   m_Component:
   - component: {fileID: 617141170365221925}
   - component: {fileID: 2142500214766021259}
-  m_Layer: 0
+  - component: {fileID: 4609913761142461252}
+  m_Layer: 6
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +150,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a109511b770ca7d4a81c786d122ea8ad, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9ee3414eff4f9424fb1099fd8a1cce54, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -158,3 +161,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4609913761142461252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7445083017055298624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 294c82c97bee9414cbfccc72fa96a683, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpriteRenderer: {fileID: 2142500214766021259}

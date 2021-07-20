@@ -54,6 +54,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 4abf0c60cff23c44783b1c5615cf0b92, type: 3}
   - {fileID: 21300000, guid: 8f8b3f9095965f544b5d1fb5e90f23b2, type: 3}
   - {fileID: 21300000, guid: c4d8fd015e1f8a1408d63b72495619a3, type: 3}
+  - {fileID: 21300000, guid: a4c1b55181e9fe945abebdaed7623125, type: 3}
   - {fileID: 21300000, guid: e88994b1adfa7f141a875e43bf3b1690, type: 3}
   - {fileID: 21300000, guid: 32103c82850fbb04196fecc17a3284ef, type: 3}
   - {fileID: 21300000, guid: 0cfe4db2d9cd03e44b468cfad1b6bf48, type: 3}
@@ -62,8 +63,11 @@ SpriteAtlas:
   - {fileID: 21300000, guid: b4816054d98a68f438bf49cdc2c39c82, type: 3}
   - {fileID: 21300000, guid: a674cf7420479a74f956dd1174ed496b, type: 3}
   - {fileID: 21300000, guid: 16a859a5bb4dfed46af72b85bcbb3326, type: 3}
+  - {fileID: 21300000, guid: bf9453b79ee484b45a95bd04462d4f66, type: 3}
+  - {fileID: 21300000, guid: ba52e6c7b4e505440836a514107b6b8b, type: 3}
   - {fileID: 21300000, guid: 654a9fa8358bca84a86f18b91d1cb1ee, type: 3}
   - {fileID: 21300000, guid: 6982f359a95065f449c2e709b18b7544, type: 3}
+  - {fileID: 21300000, guid: 94af13994dcb720448a390ae37a402eb, type: 3}
   - {fileID: 21300000, guid: ea5bbbb9fabc04d4db0bc9c77ff0b45c, type: 3}
   - {fileID: 21300000, guid: 4ce2504ac7f56c649ba64593a2aa974b, type: 3}
   - {fileID: 21300000, guid: a109511b770ca7d4a81c786d122ea8ad, type: 3}
@@ -73,6 +77,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 6e749f2d03457304998cb1a874eb247d, type: 3}
   - {fileID: 21300000, guid: 833b09fdcf6acd249b59bb6245a8ed25, type: 3}
   - {fileID: 21300000, guid: c375c30ea5226af4e816c5be68031911, type: 3}
+  - {fileID: 21300000, guid: 9ee3414eff4f9424fb1099fd8a1cce54, type: 3}
   - {fileID: 21300000, guid: fe51775e9f45f6b4f8b1ce9772b1b4cd, type: 3}
   - {fileID: -748655851102102446, guid: 56acbdaeb4afb5b42ad5e32581bc9492, type: 3}
   - {fileID: 4280891998608119737, guid: 56acbdaeb4afb5b42ad5e32581bc9492, type: 3}
@@ -96,6 +101,7 @@ SpriteAtlas:
   - ShooterProjectileBurst1
   - Dig2
   - Dig0
+  - HeroDeath
   - Shooter
   - Sword
   - Sword_Swing
@@ -104,17 +110,21 @@ SpriteAtlas:
   - ShooterProjectile
   - BridgeSwitch1
   - ShooterProjectileBurst0
+  - Bridge2
+  - Bridge1
   - BridgeSwitch0
   - BridgeSwitch2
+  - PlayerStun
   - ShooterProjectileBurst2
   - Star2
-  - Bridge
+  - Bridge3
   - HeroWalk1
   - Star0
   - Hero
   - Desk
   - HeroWalk0
   - StripBackground
+  - Bridge0
   - Star1
   - Tile_LeftDeadEnd
   - Tile_Inner

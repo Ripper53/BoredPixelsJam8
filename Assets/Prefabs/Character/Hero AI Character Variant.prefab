@@ -194,6 +194,25 @@ MonoBehaviour:
   Sword: {fileID: 0}
   GetColliders: {fileID: 4821696460397566384}
   Retriever: {fileID: 0}
+--- !u!114 &4118055522493803864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5250014828225058479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 937da1fde3ec3cb489354b7b7c20c17d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  max: 1
+  CharacterObj: {fileID: 5250014828225058479}
+  CameraFollow: {fileID: 0}
+  Transform: {fileID: 5250014828225058449}
+  Rigidbody: {fileID: 5250014828225058448}
+  Animator: {fileID: 4514721343508427696}
+  DeathAnimation: {fileID: 11400000, guid: cb9df59573b0e3f429a4ba61f5b4df8a, type: 2}
 --- !u!114 &6652508339190395938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -339,6 +358,10 @@ PrefabInstance:
       propertyPath: Size.y
       value: 1.75
       objectReference: {fileID: 0}
+    - target: {fileID: 801758915453276243, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.25
+      objectReference: {fileID: 0}
     - target: {fileID: 1035789359554085215, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
       propertyPath: Offset.y
       value: -0.25
@@ -443,6 +466,10 @@ PrefabInstance:
       propertyPath: Offset.y
       value: -0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4414154521331162446, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.25
+      objectReference: {fileID: 0}
     - target: {fileID: 4666939926826464722, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
       propertyPath: Size.y
       value: 8
@@ -487,6 +514,14 @@ PrefabInstance:
       propertyPath: Size.y
       value: 1.75
       objectReference: {fileID: 0}
+    - target: {fileID: 7141417790545484370, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
+      propertyPath: Death
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7188645907892733754, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.25
+      objectReference: {fileID: 0}
     - target: {fileID: 7192963735481115204, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
       propertyPath: Size.y
       value: 1.75
@@ -511,6 +546,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7686392934035897099, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.25
+      objectReference: {fileID: 0}
     - target: {fileID: 8691346130506748359, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
       propertyPath: Offset.y
       value: -0.5
@@ -519,7 +558,8 @@ PrefabInstance:
       propertyPath: Offset.y
       value: -0.25
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1487029311931043775, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
 --- !u!1 &5250014828225058479 stripped
 GameObject:
@@ -531,6 +571,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2701300871337209221, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
   m_PrefabInstance: {fileID: 7901352787339033364}
   m_PrefabAsset: {fileID: 0}
+--- !u!50 &5250014828225058448 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 2701300871337209220, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
+  m_PrefabInstance: {fileID: 7901352787339033364}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4514721343508427696 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5980988505396021412, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
+  m_PrefabInstance: {fileID: 7901352787339033364}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 294c82c97bee9414cbfccc72fa96a683, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &5932246666895725098 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4608498083015305534, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
