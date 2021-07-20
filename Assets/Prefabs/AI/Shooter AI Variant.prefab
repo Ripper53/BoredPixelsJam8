@@ -30,11 +30,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ActionData:
     ShootAIAction:
+      RotateToAngle: {fileID: 6001005510198501081}
       ProjectilePooler: {fileID: 0}
       Barrel: {fileID: 7782067954009932967}
       GetColliders: {fileID: 4033507667998698454}
       Force: 10
       Cooldown: 2
+--- !u!114 &6001005510198501081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2703298758892414493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5d7b65c08351b4784ae0c005f87555, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Transform: {fileID: 5713970745107708696}
+  Angle: 0
+  Time: 0.0625
 --- !u!1 &5993457202670898297
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,6 +191,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 38376664077060107, guid: cdb19abdd71052a49acfd2401ef8f95b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 38376664077060107, guid: cdb19abdd71052a49acfd2401ef8f95b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 38376664077060107, guid: cdb19abdd71052a49acfd2401ef8f95b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 38376664077060107, guid: cdb19abdd71052a49acfd2401ef8f95b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001856773299089146, guid: cdb19abdd71052a49acfd2401ef8f95b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e88994b1adfa7f141a875e43bf3b1690, type: 3}
     - target: {fileID: 3486704514838529156, guid: cdb19abdd71052a49acfd2401ef8f95b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -241,5 +277,15 @@ GameObject:
 --- !u!4 &9198336197512378263 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3486704514838529156, guid: cdb19abdd71052a49acfd2401ef8f95b, type: 3}
+  m_PrefabInstance: {fileID: 5747803966048318227}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2703298758892414493 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7656197049727931662, guid: cdb19abdd71052a49acfd2401ef8f95b, type: 3}
+  m_PrefabInstance: {fileID: 5747803966048318227}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5713970745107708696 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 38376664077060107, guid: cdb19abdd71052a49acfd2401ef8f95b, type: 3}
   m_PrefabInstance: {fileID: 5747803966048318227}
   m_PrefabAsset: {fileID: 0}

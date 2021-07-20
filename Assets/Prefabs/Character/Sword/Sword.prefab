@@ -152,6 +152,7 @@ MonoBehaviour:
   Rigidbody: {fileID: 2722703980315475155}
   Speed: 10
   GravityScale: 0.125
+  AddedForceY: 2
   CollisionCast: {fileID: 9082877274509410649}
   Item: {fileID: 5097490045466940544}
   Animator: {fileID: 757065059320164566}

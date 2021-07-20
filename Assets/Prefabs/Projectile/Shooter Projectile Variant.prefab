@@ -117,7 +117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Transform: {fileID: 8706692225250076011}
   Offset: {x: 0, y: 0}
-  Radius: 0.25
+  Radius: 0.125
 --- !u!1001 &6624213927111443425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -173,6 +173,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shooter Projectile Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7700375325721867172, guid: bdb61e9ef88bdf64dbd656accae3dcaf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b4816054d98a68f438bf49cdc2c39c82, type: 3}
     - target: {fileID: 8576810754671453852, guid: bdb61e9ef88bdf64dbd656accae3dcaf, type: 3}
       propertyPath: Check
       value: 

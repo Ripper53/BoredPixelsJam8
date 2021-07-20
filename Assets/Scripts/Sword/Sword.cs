@@ -6,6 +6,7 @@ public class Sword : MonoBehaviour {
     public Transform Transform;
     public Rigidbody2D Rigidbody;
     public float Speed, GravityScale;
+    public float AddedForceY;
     public Cast CollisionCast;
     public Item Item;
     [Header("Animation")]
@@ -27,7 +28,10 @@ public class Sword : MonoBehaviour {
     private Vector2 dir;
     private void OnEnable() {
         Rigidbody.gravityScale = GravityScale;
-        Rigidbody.velocity = Speed * dir.normalized;
+        dir.Normalize();
+        Vector2 vel = Speed * dir;
+        vel.y += AddedForceY * dir.x;
+        Rigidbody.velocity = vel;
         Animator.SetAnimation(ThrowAnimation);
     }
 

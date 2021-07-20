@@ -51,13 +51,22 @@ SpriteAtlas:
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 2cc5a560ad4cdc1499e214a0ac30a3b9, type: 3}
+  - {fileID: 21300000, guid: 4abf0c60cff23c44783b1c5615cf0b92, type: 3}
   - {fileID: 21300000, guid: 8f8b3f9095965f544b5d1fb5e90f23b2, type: 3}
   - {fileID: 21300000, guid: c4d8fd015e1f8a1408d63b72495619a3, type: 3}
+  - {fileID: 21300000, guid: e88994b1adfa7f141a875e43bf3b1690, type: 3}
   - {fileID: 21300000, guid: 32103c82850fbb04196fecc17a3284ef, type: 3}
   - {fileID: 21300000, guid: 0cfe4db2d9cd03e44b468cfad1b6bf48, type: 3}
   - {fileID: 21300000, guid: 55a85543b46ffcd4badad3453bfb9be8, type: 3}
   - {fileID: 21300000, guid: 2d65a4932645b7741a718522806b8f99, type: 3}
+  - {fileID: 21300000, guid: b4816054d98a68f438bf49cdc2c39c82, type: 3}
+  - {fileID: 21300000, guid: a674cf7420479a74f956dd1174ed496b, type: 3}
+  - {fileID: 21300000, guid: 16a859a5bb4dfed46af72b85bcbb3326, type: 3}
+  - {fileID: 21300000, guid: 654a9fa8358bca84a86f18b91d1cb1ee, type: 3}
+  - {fileID: 21300000, guid: 6982f359a95065f449c2e709b18b7544, type: 3}
+  - {fileID: 21300000, guid: ea5bbbb9fabc04d4db0bc9c77ff0b45c, type: 3}
   - {fileID: 21300000, guid: 4ce2504ac7f56c649ba64593a2aa974b, type: 3}
+  - {fileID: 21300000, guid: a109511b770ca7d4a81c786d122ea8ad, type: 3}
   - {fileID: 21300000, guid: 6366b90ca3c21844b84ff779cb53f7d7, type: 3}
   - {fileID: 21300000, guid: 90498bac3af8454468b2b6f7963dcc01, type: 3}
   - {fileID: 21300000, guid: 90c56e2da0dc8574cbf9629be22df7de, type: 3}
@@ -84,13 +93,22 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 655f1f4fc6d126443b0d2b38d562d4aa, type: 3}
   m_PackedSpriteNamesToIndex:
   - Dig1
+  - ShooterProjectileBurst1
   - Dig2
   - Dig0
+  - Shooter
   - Sword
   - Sword_Swing
   - Player
   - PlayerWalk0
+  - ShooterProjectile
+  - BridgeSwitch1
+  - ShooterProjectileBurst0
+  - BridgeSwitch0
+  - BridgeSwitch2
+  - ShooterProjectileBurst2
   - Star2
+  - Bridge
   - HeroWalk1
   - Star0
   - Hero

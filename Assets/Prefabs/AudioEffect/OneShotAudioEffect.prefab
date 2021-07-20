@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4065557576674416849}
   - component: {fileID: 4065557576674416854}
+  - component: {fileID: 3948839983151085232}
+  - component: {fileID: 8263463816181685330}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -83,6 +85,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3948839983151085232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4065557576674416855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 294c82c97bee9414cbfccc72fa96a683, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpriteRenderer: {fileID: 4065557576674416854}
+--- !u!114 &8263463816181685330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4065557576674416855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cff2309372534b4b9f34dbe925342af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FrameAnimator: {fileID: 3948839983151085232}
+  SpriteAnimation: {fileID: 0}
 --- !u!1 &4065557576892066372
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4065557576892066374}
   - component: {fileID: 4065557576892066375}
+  - component: {fileID: 6184248523268202315}
   m_Layer: 0
   m_Name: OneShotAudioEffect
   m_TagString: Untagged
@@ -130,3 +160,17 @@ MonoBehaviour:
   AudioClip: {fileID: 0}
   Transform: {fileID: 4065557576892066374}
   SpriteRenderer: {fileID: 4065557576674416854}
+--- !u!114 &6184248523268202315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4065557576892066372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f715bf00a78512d4287275fad44bf758, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameObject: {fileID: 4065557576892066372}
+  FrameAnimator: {fileID: 3948839983151085232}
