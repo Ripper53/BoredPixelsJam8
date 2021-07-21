@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2449742646675736586}
   - component: {fileID: 8216597692028490059}
-  - component: {fileID: 3917772955109939756}
   - component: {fileID: 7581272691679046203}
   - component: {fileID: 5197963525804951707}
+  - component: {fileID: 3917772955109939756}
+  - component: {fileID: 7922544901523439181}
   m_Layer: 0
   m_Name: ForceZone
   m_TagString: Untagged
@@ -52,33 +53,6 @@ MonoBehaviour:
     Force: 10
     StunTime: 0.5
     DirectionMethod: {fileID: 5197963525804951707}
---- !u!114 &3917772955109939756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3923846546595851528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: addf95d771e64c04e903aa7a35b88cd9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Filter:
-    useTriggers: 0
-    useLayerMask: 1
-    useDepth: 0
-    useOutsideDepth: 0
-    useNormalAngle: 0
-    useOutsideNormalAngle: 0
-    layerMask:
-      serializedVersion: 2
-      m_Bits: 128
-    minDepth: 0
-    maxDepth: 0
-    minNormalAngle: 0
-    maxNormalAngle: 0
-  CircleParameter: {fileID: 7766790762569111302}
 --- !u!114 &7581272691679046203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,6 +82,48 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Transform: {fileID: 2449742646675736586}
+--- !u!114 &3917772955109939756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3923846546595851528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: addf95d771e64c04e903aa7a35b88cd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Filter:
+    useTriggers: 0
+    useLayerMask: 1
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 128
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
+  CircleParameter: {fileID: 7922544901523439181}
+--- !u!114 &7922544901523439181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3923846546595851528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38d8e0e829dcee84d98e4751711875e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Transform: {fileID: 2449742646675736586}
+  Offset: {x: 0, y: 0}
+  Radius: 0.125
 --- !u!114 &6788804354059643806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,7 +165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Transform: {fileID: 8706692225250076011}
   Offset: {x: 0, y: 0}
-  Radius: 0.125
+  Radius: 0.25
 --- !u!1001 &6624213927111443425
 PrefabInstance:
   m_ObjectHideFlags: 0
