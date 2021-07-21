@@ -211,6 +211,7 @@ MonoBehaviour:
   CameraFollow: {fileID: 0}
   Transform: {fileID: 5250014828225058449}
   Rigidbody: {fileID: 5250014828225058448}
+  CharacterAnimator: {fileID: 7461809382202303280}
   Animator: {fileID: 4514721343508427696}
   DeathAnimation: {fileID: 11400000, guid: cb9df59573b0e3f429a4ba61f5b4df8a, type: 2}
 --- !u!114 &6652508339190395938
@@ -585,6 +586,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 294c82c97bee9414cbfccc72fa96a683, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7461809382202303280 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 732558858093516836, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
+  m_PrefabInstance: {fileID: 7901352787339033364}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fae7f30d4afe4e4287cf45d5313e86d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &5932246666895725098 stripped

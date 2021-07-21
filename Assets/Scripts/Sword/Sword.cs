@@ -1,4 +1,5 @@
 using Platformer2DStarterKit;
+using Platformer2DStarterKit.Utility;
 using UnityEngine;
 
 public class Sword : MonoBehaviour {
@@ -14,7 +15,7 @@ public class Sword : MonoBehaviour {
     public SpriteAnimationBase IdleAnimation, ThrowAnimation;
     public ConstantRotation ConstantRotation;
     [Header("Hit")]
-    public GetColliders KillGetColliders;
+    public DangerZone DangerZone;
 
     public bool IsThrowing { get; private set; } = false;
     public void Throw(Vector2 direction) {
@@ -33,20 +34,17 @@ public class Sword : MonoBehaviour {
         vel.y += AddedForceY * dir.x;
         Rigidbody.velocity = vel;
         Animator.SetAnimation(ThrowAnimation);
+        DangerZone.enabled = true;
     }
 
     private void FixedUpdate() {
-        foreach (Collider2D col in KillGetColliders.Get()) {
-            if (col.TryGetComponent(out Health health))
-                health.Damage(1);
-        }
-
         RaycastHit2D hit = CollisionCast.Evaluate();
         if (hit) {
             Transform.right = -hit.normal;
             Rigidbody.gravityScale = 0f;
             Rigidbody.velocity = Vector2.zero;
 
+            DangerZone.enabled = false;
             Animator.SetAnimation(IdleAnimation);
             ConstantRotation.enabled = false;
             ConstantRotation.Transform.localRotation = Quaternion.identity;

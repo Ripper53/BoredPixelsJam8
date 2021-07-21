@@ -9,8 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2449742646675736586}
-  - component: {fileID: 2465423986922622510}
+  - component: {fileID: 8216597692028490059}
   - component: {fileID: 3917772955109939756}
+  - component: {fileID: 7581272691679046203}
+  - component: {fileID: 5197963525804951707}
   m_Layer: 0
   m_Name: ForceZone
   m_TagString: Untagged
@@ -32,7 +34,7 @@ Transform:
   m_Father: {fileID: 8706692225250076011}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2465423986922622510
+--- !u!114 &8216597692028490059
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,14 +43,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 3923846546595851528}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e732d1b36cc25b4d8ec4ea5cba045f0, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ab35301e9405624db0703b5f5dd9c47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ForceDetection: {fileID: 3917772955109939756}
-  Force: 5
-  StunTime: 0.5
-  Interval: 1
-  Origin: {fileID: 2449742646675736586}
+  Zone:
+    Detection: {fileID: 3917772955109939756}
+    ZoneSystem: {fileID: 7581272691679046203}
+    Force: 10
+    StunTime: 0.5
+    DirectionMethod: {fileID: 5197963525804951707}
 --- !u!114 &3917772955109939756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76,6 +79,35 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   CircleParameter: {fileID: 7766790762569111302}
+--- !u!114 &7581272691679046203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3923846546595851528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e50d1f8efde4f144fab3cc5ace880082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  System:
+    GameObject: {fileID: 2085153936302599616}
+    Transform: {fileID: 8706692225250076011}
+    OneShotAudioEffectPooler: {fileID: 0}
+--- !u!114 &5197963525804951707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3923846546595851528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12cef4237bb2d6439a5e900799e9182, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Transform: {fileID: 2449742646675736586}
 --- !u!114 &6788804354059643806
 MonoBehaviour:
   m_ObjectHideFlags: 0

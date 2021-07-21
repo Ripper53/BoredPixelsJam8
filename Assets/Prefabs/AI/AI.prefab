@@ -60,7 +60,7 @@ MonoBehaviour:
   CharacterMovement: {fileID: 0}
   Stun: {fileID: 0}
   Jump: {fileID: 0}
-  Death: {fileID: 0}
+  Death: {fileID: 7135673374635992623}
   MovementExecution: {fileID: 0}
   Speed: {fileID: 0}
   poolerRepository: {fileID: 0}

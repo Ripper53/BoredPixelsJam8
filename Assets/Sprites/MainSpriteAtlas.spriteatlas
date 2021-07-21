@@ -53,9 +53,11 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 2cc5a560ad4cdc1499e214a0ac30a3b9, type: 3}
   - {fileID: 21300000, guid: 4abf0c60cff23c44783b1c5615cf0b92, type: 3}
   - {fileID: 21300000, guid: 8f8b3f9095965f544b5d1fb5e90f23b2, type: 3}
+  - {fileID: 21300000, guid: a83b7af05ad7df5458d7443a01c16352, type: 3}
   - {fileID: 21300000, guid: c4d8fd015e1f8a1408d63b72495619a3, type: 3}
   - {fileID: 21300000, guid: a4c1b55181e9fe945abebdaed7623125, type: 3}
   - {fileID: 21300000, guid: e88994b1adfa7f141a875e43bf3b1690, type: 3}
+  - {fileID: 21300000, guid: 3dc5128274dcc854193594da423e0aba, type: 3}
   - {fileID: 21300000, guid: 32103c82850fbb04196fecc17a3284ef, type: 3}
   - {fileID: 21300000, guid: 0cfe4db2d9cd03e44b468cfad1b6bf48, type: 3}
   - {fileID: 21300000, guid: 55a85543b46ffcd4badad3453bfb9be8, type: 3}
@@ -100,9 +102,11 @@ SpriteAtlas:
   - Dig1
   - ShooterProjectileBurst1
   - Dig2
+  - WormBody
   - Dig0
   - HeroDeath
   - Shooter
+  - WormHead
   - Sword
   - Sword_Swing
   - Player
