@@ -8,19 +8,28 @@ public class Bridge : MonoBehaviour {
     [Header("Animator")]
     public FrameAnimator Animator;
     public SpriteAnimationBase OpenAnimation;
+    public bool IsOpen;
 
-    public void Open() {
-        Collider.enabled = true;
+    public void Trigger() {
         enabled = true;
+        Collider.enabled = !IsOpen;
     }
 
-    private void Update() {
+    protected void Update() {
         Vector2 size = SpriteRenderer.size;
-        size.x += UnityEngine.Time.deltaTime / Time;
-        if (size.x >= Size) {
-            enabled = false;
-            size.x = Size;
-            Animator.SetAnimation(OpenAnimation);
+        if (IsOpen) {
+            size.x -= UnityEngine.Time.deltaTime / Time;
+            if (size.x <= 0f) {
+                enabled = false;
+                size.x = 0f;
+            }
+        } else {
+            size.x += UnityEngine.Time.deltaTime / Time;
+            if (size.x >= Size) {
+                enabled = false;
+                size.x = Size;
+                Animator.SetAnimation(OpenAnimation);
+            }
         }
         SpriteRenderer.size = size;
     }

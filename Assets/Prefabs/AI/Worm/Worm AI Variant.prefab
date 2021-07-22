@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 3735650924339932156}
   - component: {fileID: 7183424204319661126}
   - component: {fileID: 3433608412029650283}
-  - component: {fileID: 1121234543971536709}
   m_Layer: 8
   m_Name: ForceZone
   m_TagString: Untagged
@@ -123,22 +122,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Transform: {fileID: 1853719058444180736}
---- !u!114 &1121234543971536709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4278144679394154662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 998cff8ee6aef984a954255a3dacb576, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Zone:
-    Detection: {fileID: 7625880222204315215}
-    ZoneSystem: {fileID: 7183424204319661126}
-    Damage: 1
 --- !u!1 &5162749758175896641
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,7 +152,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9205218456028345710}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6741800451775935702
 MonoBehaviour:
@@ -237,6 +220,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!58 &1664534483099511998
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9205218456028345708}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!114 &1384538223715590321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,22 +270,68 @@ MonoBehaviour:
     WormAIAction:
       GroundDetection: {fileID: 3500858866571286083}
       Speed: 5
---- !u!58 &1664534483099511998
-CircleCollider2D:
+--- !u!1 &6189535292089215232
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9205218456028345708}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4897379921597014419}
+  - component: {fileID: 2619597783712592748}
+  - component: {fileID: 7853340057524664345}
+  m_Layer: 8
+  m_Name: DangerZone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4897379921597014419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6189535292089215232}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9205218456028345710}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2619597783712592748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6189535292089215232}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 998cff8ee6aef984a954255a3dacb576, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Zone:
+    Detection: {fileID: 7625880222204315215}
+    ZoneSystem: {fileID: 7853340057524664345}
+    Damage: 1
+--- !u!114 &7853340057524664345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6189535292089215232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 855eaa16df20d1c44a0e3a79f32afefa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  System:
+    Time: 1
 --- !u!1 &8336946080918130067
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,6 +477,10 @@ PrefabInstance:
       propertyPath: MovementExecution
       value: 
       objectReference: {fileID: 1384538223715590321}
+    - target: {fileID: 7135673374635992623, guid: cdb19abdd71052a49acfd2401ef8f95b, type: 3}
+      propertyPath: DeadBody
+      value: 
+      objectReference: {fileID: 11400000, guid: 0067b9a0c1936d24b9407e71fe4844e0, type: 2}
     - target: {fileID: 7656197049727931662, guid: cdb19abdd71052a49acfd2401ef8f95b, type: 3}
       propertyPath: m_Layer
       value: 8

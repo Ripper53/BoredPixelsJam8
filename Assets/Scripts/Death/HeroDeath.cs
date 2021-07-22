@@ -11,8 +11,10 @@ public class HeroDeath : CharacterHealth {
     public CharacterAnimator CharacterAnimator;
     public FrameAnimator Animator;
     public SpriteAnimationBase DeathAnimation;
+    public bool Invulnerable = false;
 
     public override void Destroy() {
+        if (Invulnerable) return;
         CharacterAnimator.enabled = false;
         Rigidbody.simulated = false;
         Time.timeScale = 0.5f;

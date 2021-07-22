@@ -45,11 +45,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 691915ce935dad5469c6f23d9cecb041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerCharacterDeath: {fileID: 9101977304418249370}
   Transform: {fileID: 815594585256482859}
   Target: {fileID: 0}
   Time: 0.5
   SpawnCheck: {fileID: 1540682468013779904}
   Rigidbody: {fileID: 815594585256482858}
+  Animator: {fileID: 9020109152409828618}
+  DeathAnimation: {fileID: 11400000, guid: 637aebbc206b80f41abbe77d151d47b4, type: 2}
+  AliveAnimation: {fileID: 11400000, guid: e3ef5014181a9184a9298ccd38fd8b29, type: 2}
 --- !u!114 &1540682468013779904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281,6 +285,22 @@ MonoBehaviour:
   max: 1
   CharacterObj: {fileID: 815594585256482837}
   PlayerCharacterDeathMovement: {fileID: 8836765383300572879}
+  IsAlone: 0
+--- !u!114 &960139810413267367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815594585256482837}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c8cbb7cf50be0a4dbb087dfe3929792, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Transform: {fileID: 815594585256482859}
+  Target: {fileID: 0}
+  Time: 0.1
 --- !u!1 &8814512165657163294
 GameObject:
   m_ObjectHideFlags: 0
@@ -519,5 +539,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5564dcf6145cfc946b149c59f55a2559, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9020109152409828618 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1980348942701327821, guid: f7da137c4126c0d469170145e6722da5, type: 3}
+  m_PrefabInstance: {fileID: 7374153617691592903}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 294c82c97bee9414cbfccc72fa96a683, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

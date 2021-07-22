@@ -472,6 +472,10 @@ PrefabInstance:
       propertyPath: MovementExecution
       value: 
       objectReference: {fileID: 3815568380925289254}
+    - target: {fileID: 7135673374635992623, guid: cdb19abdd71052a49acfd2401ef8f95b, type: 3}
+      propertyPath: DeadBody
+      value: 
+      objectReference: {fileID: 11400000, guid: 9176e388ea3c6b548bd8fa784933722d, type: 2}
     - target: {fileID: 7656197049727931662, guid: cdb19abdd71052a49acfd2401ef8f95b, type: 3}
       propertyPath: m_Layer
       value: 8

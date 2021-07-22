@@ -34,7 +34,7 @@ MonoBehaviour:
       ProjectilePooler: {fileID: 0}
       Barrel: {fileID: 7782067954009932967}
       GetColliders: {fileID: 4033507667998698454}
-      Force: 10
+      Force: 20
       Cooldown: 2
 --- !u!114 &6001005510198501081
 MonoBehaviour:
@@ -263,6 +263,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 7135673374635992623, guid: cdb19abdd71052a49acfd2401ef8f95b, type: 3}
+      propertyPath: DeadBody
+      value: 
+      objectReference: {fileID: 11400000, guid: 6f5daaca9cac4bd4abea579ac87d86d4, type: 2}
     - target: {fileID: 7656197049727931662, guid: cdb19abdd71052a49acfd2401ef8f95b, type: 3}
       propertyPath: m_Layer
       value: 8

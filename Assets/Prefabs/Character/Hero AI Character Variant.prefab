@@ -459,6 +459,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hero AI Character Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 2701300871337209275, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
+      propertyPath: m_TagString
+      value: Hero
+      objectReference: {fileID: 0}
     - target: {fileID: 2701300872749647167, guid: 0f049db21c95da74ca69fd1447ddbc42, type: 3}
       propertyPath: m_Sprite
       value: 

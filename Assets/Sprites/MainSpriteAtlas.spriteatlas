@@ -52,31 +52,44 @@ SpriteAtlas:
   m_PackedSprites:
   - {fileID: 21300000, guid: 2cc5a560ad4cdc1499e214a0ac30a3b9, type: 3}
   - {fileID: 21300000, guid: 4abf0c60cff23c44783b1c5615cf0b92, type: 3}
+  - {fileID: 21300000, guid: ccf0989016c1e924889d12e0ee6b1e68, type: 3}
   - {fileID: 21300000, guid: 8f8b3f9095965f544b5d1fb5e90f23b2, type: 3}
   - {fileID: 21300000, guid: a83b7af05ad7df5458d7443a01c16352, type: 3}
   - {fileID: 21300000, guid: c4d8fd015e1f8a1408d63b72495619a3, type: 3}
   - {fileID: 21300000, guid: a4c1b55181e9fe945abebdaed7623125, type: 3}
   - {fileID: 21300000, guid: e88994b1adfa7f141a875e43bf3b1690, type: 3}
+  - {fileID: 21300000, guid: 3fe36c22fc20c8c4f9fe80f606e83d0f, type: 3}
   - {fileID: 21300000, guid: 3dc5128274dcc854193594da423e0aba, type: 3}
   - {fileID: 21300000, guid: 32103c82850fbb04196fecc17a3284ef, type: 3}
   - {fileID: 21300000, guid: 0cfe4db2d9cd03e44b468cfad1b6bf48, type: 3}
   - {fileID: 21300000, guid: 55a85543b46ffcd4badad3453bfb9be8, type: 3}
   - {fileID: 21300000, guid: 2d65a4932645b7741a718522806b8f99, type: 3}
+  - {fileID: 21300000, guid: a3d887049a997fb4f94de839420a9116, type: 3}
   - {fileID: 21300000, guid: b4816054d98a68f438bf49cdc2c39c82, type: 3}
   - {fileID: 21300000, guid: a674cf7420479a74f956dd1174ed496b, type: 3}
+  - {fileID: 21300000, guid: d07c6c552c280d14ba5a85d5f80815b8, type: 3}
   - {fileID: 21300000, guid: 16a859a5bb4dfed46af72b85bcbb3326, type: 3}
+  - {fileID: 21300000, guid: 81a82eb58f2cecc40ab37c889d8f7c7e, type: 3}
+  - {fileID: 21300000, guid: 8d28b11788dd2e942b1e4bf617fbfefb, type: 3}
   - {fileID: 21300000, guid: bf9453b79ee484b45a95bd04462d4f66, type: 3}
   - {fileID: 21300000, guid: ba52e6c7b4e505440836a514107b6b8b, type: 3}
   - {fileID: 21300000, guid: 654a9fa8358bca84a86f18b91d1cb1ee, type: 3}
+  - {fileID: 21300000, guid: c54fd2e87c501bb4c93cb62b5ae14303, type: 3}
+  - {fileID: 21300000, guid: 18a6db29438f77249806ef51140f0963, type: 3}
   - {fileID: 21300000, guid: 6982f359a95065f449c2e709b18b7544, type: 3}
+  - {fileID: 21300000, guid: 22c2be798aac1e745983a721c78d4416, type: 3}
   - {fileID: 21300000, guid: 94af13994dcb720448a390ae37a402eb, type: 3}
+  - {fileID: 21300000, guid: 6fd73aa93ccecb244b14d5ad8f4c2399, type: 3}
   - {fileID: 21300000, guid: ea5bbbb9fabc04d4db0bc9c77ff0b45c, type: 3}
   - {fileID: 21300000, guid: 4ce2504ac7f56c649ba64593a2aa974b, type: 3}
+  - {fileID: 21300000, guid: d4aafdca3e95dac4bb6f3e0af097124a, type: 3}
   - {fileID: 21300000, guid: a109511b770ca7d4a81c786d122ea8ad, type: 3}
   - {fileID: 21300000, guid: 6366b90ca3c21844b84ff779cb53f7d7, type: 3}
   - {fileID: 21300000, guid: 90498bac3af8454468b2b6f7963dcc01, type: 3}
+  - {fileID: 21300000, guid: c39d61dc7816697469f8a3fc62702417, type: 3}
   - {fileID: 21300000, guid: 90c56e2da0dc8574cbf9629be22df7de, type: 3}
   - {fileID: 21300000, guid: 6e749f2d03457304998cb1a874eb247d, type: 3}
+  - {fileID: 21300000, guid: e33feead67fe9ab44a42ae44742812b6, type: 3}
   - {fileID: 21300000, guid: 833b09fdcf6acd249b59bb6245a8ed25, type: 3}
   - {fileID: 21300000, guid: c375c30ea5226af4e816c5be68031911, type: 3}
   - {fileID: 21300000, guid: 9ee3414eff4f9424fb1099fd8a1cce54, type: 3}
@@ -101,31 +114,44 @@ SpriteAtlas:
   m_PackedSpriteNamesToIndex:
   - Dig1
   - ShooterProjectileBurst1
+  - WormDeadHead
   - Dig2
   - WormBody
   - Dig0
   - HeroDeath
   - Shooter
+  - StarDeadBody
   - WormHead
   - Sword
   - Sword_Swing
   - Player
   - PlayerWalk0
+  - RockBackground
   - ShooterProjectile
   - BridgeSwitch1
+  - Laser
   - ShooterProjectileBurst0
+  - Explosion2
+  - Door
   - Bridge2
   - Bridge1
   - BridgeSwitch0
+  - Stand
+  - ShooterDeadBody
   - BridgeSwitch2
+  - Skull
   - PlayerStun
+  - DigDeadBody
   - ShooterProjectileBurst2
   - Star2
+  - ShipFloor
   - Bridge3
   - HeroWalk1
   - Star0
+  - Explosion0
   - Hero
   - Desk
+  - Explosion1
   - HeroWalk0
   - StripBackground
   - Bridge0

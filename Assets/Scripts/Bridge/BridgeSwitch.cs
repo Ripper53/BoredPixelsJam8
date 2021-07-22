@@ -9,7 +9,7 @@ public class BridgeSwitch : MonoBehaviour {
 
     private void FixedUpdate() {
         if (!Check.Evaluate()) return;
-        Bridge.Open();
+        Bridge.Trigger();
 
         Animator.SetAnimation(SwitchAnimation);
 

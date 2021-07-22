@@ -134,7 +134,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2475cb57f85c71f48bdf2c94afd38741, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ActionData: {}
 --- !u!114 &1056169733750611514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,6 +246,18 @@ PrefabInstance:
       propertyPath: WalkAnimation
       value: 
       objectReference: {fileID: 11400000, guid: 259d5a7be69561040b5be2ec8879665c, type: 2}
+    - target: {fileID: 4532003597147018927, guid: 968a36c6d3f21b34abb54fd07241cdba, type: 3}
+      propertyPath: DeadBody
+      value: 
+      objectReference: {fileID: 11400000, guid: 03d3d28170fa28f4d881779842c52e2e, type: 2}
+    - target: {fileID: 5286519670237397826, guid: 968a36c6d3f21b34abb54fd07241cdba, type: 3}
+      propertyPath: Wander.MaxNewDirectionTime
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5286519670237397826, guid: 968a36c6d3f21b34abb54fd07241cdba, type: 3}
+      propertyPath: Wander.MinNewDirectionTime
+      value: 0.0625
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 968a36c6d3f21b34abb54fd07241cdba, type: 3}
 --- !u!1 &4840545575063374896 stripped

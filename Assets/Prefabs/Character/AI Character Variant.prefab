@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: Filter.layerMask.m_Bits
       value: 64
       objectReference: {fileID: 0}
+    - target: {fileID: 2003204573107363166, guid: cb511903b8d0225488bfc32a089a359f, type: 3}
+      propertyPath: Filter.layerMask.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 2271794955207038078, guid: cb511903b8d0225488bfc32a089a359f, type: 3}
       propertyPath: Filter.layerMask.m_Bits
       value: 64
@@ -89,6 +93,10 @@ PrefabInstance:
       value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 5222543426092436139, guid: cb511903b8d0225488bfc32a089a359f, type: 3}
+      propertyPath: Filter.layerMask.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 5681289310820680209, guid: cb511903b8d0225488bfc32a089a359f, type: 3}
       propertyPath: Filter.layerMask.m_Bits
       value: 64
       objectReference: {fileID: 0}
