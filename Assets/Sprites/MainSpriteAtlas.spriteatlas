@@ -50,6 +50,7 @@ SpriteAtlas:
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: 7231a10063dd6504db266ded86a43429, type: 3}
   - {fileID: 21300000, guid: 2cc5a560ad4cdc1499e214a0ac30a3b9, type: 3}
   - {fileID: 21300000, guid: 4abf0c60cff23c44783b1c5615cf0b92, type: 3}
   - {fileID: 21300000, guid: ccf0989016c1e924889d12e0ee6b1e68, type: 3}
@@ -68,6 +69,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: b4816054d98a68f438bf49cdc2c39c82, type: 3}
   - {fileID: 21300000, guid: a674cf7420479a74f956dd1174ed496b, type: 3}
   - {fileID: 21300000, guid: d07c6c552c280d14ba5a85d5f80815b8, type: 3}
+  - {fileID: 21300000, guid: 7a6594954cb98da408d67f6802d49b63, type: 3}
   - {fileID: 21300000, guid: 16a859a5bb4dfed46af72b85bcbb3326, type: 3}
   - {fileID: 21300000, guid: 81a82eb58f2cecc40ab37c889d8f7c7e, type: 3}
   - {fileID: 21300000, guid: 8d28b11788dd2e942b1e4bf617fbfefb, type: 3}
@@ -112,6 +114,7 @@ SpriteAtlas:
   - {fileID: 9104886320831918182, guid: 56acbdaeb4afb5b42ad5e32581bc9492, type: 3}
   - {fileID: 21300000, guid: 655f1f4fc6d126443b0d2b38d562d4aa, type: 3}
   m_PackedSpriteNamesToIndex:
+  - Cross
   - Dig1
   - ShooterProjectileBurst1
   - WormDeadHead
@@ -130,6 +133,7 @@ SpriteAtlas:
   - ShooterProjectile
   - BridgeSwitch1
   - Laser
+  - ShipWing
   - ShooterProjectileBurst0
   - Explosion2
   - Door
